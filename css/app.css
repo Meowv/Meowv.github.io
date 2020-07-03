@@ -1706,6 +1706,19 @@ button:focus {
 	.plus-show-xs-inline-block {
 		display: inline-block!important;
 	}
+
+	.ip-search input {
+		padding: 8px 10px !important;
+		width: 220px !important;
+		width: calc(100vw - 140px) !important;
+	}
+
+	.ip-search button {
+		width: 60px !important;
+		height: 36px;
+		line-height: 36px !important;
+		font-size: 14px !important;
+	}
 }
 
 @media screen and (min-width:768px) {
@@ -2223,4 +2236,180 @@ button:focus {
 
 .post-wrap ul li {
 	list-style: none;
+}
+
+.ip-box {
+	text-align: center;
+}
+
+.ip-search {
+	display: inline-block;
+	border: 2px solid #5a9600;
+	border-radius: 3px;
+	margin: 60px auto 30px;
+}
+
+.dark-theme .ip-search input {
+	background: #292a2d;
+	color: #fff;
+}
+
+.ip-search input {
+	width: 800px;
+	height: 20px;
+	padding: 10px;
+	border: medium none;
+	line-height: 20px;
+	vertical-align: middle;
+	outline: none;
+	font-size: 16px;
+}
+
+.ip-search button {
+	width: 100px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    border-width: medium;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    background: #5a9600;
+    outline: none;
+    border-radius: 0px;
+}
+
+.ip-region {
+	display: inline-block;
+	text-align: left;
+	padding: 10px;
+}
+
+.ip-region p {
+	width: 300px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.tts-box {
+	margin: 50px auto;
+}
+
+.tts-textarea-wrap {
+	height: 220px;
+	position: relative;
+	padding: 13px 20px;
+	border: 1px solid #eee;
+	background-color: #fff;
+}
+
+.dark-theme .tts-textarea-wrap {
+	background-color: #292a2d;
+	border: 1px solid #666;
+}
+
+.dark-theme .tts-textarea-wrap textarea {
+	color: #fff;
+}
+
+.tts-textarea-wrap textarea {
+	height: 150px;
+	box-sizing: border-box;
+	display: block;
+	width: 100%;
+	padding: 0;
+	line-height: 30px;
+	resize: none;
+	background-color: transparent;
+	font-size: 14px;
+	outline: none;
+	border: 0;
+	color: #000;
+	letter-spacing: 1px;
+}
+
+.tts-tip {
+	font-size: 14px;
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+	height: 16px;
+	color: #666;
+}
+
+.tts-tip-num {
+	margin: 0 2px;
+	color: #5A9600;
+}
+
+.tts-btn {
+	cursor: pointer;
+	font-size: 16px;
+	position: absolute;
+	bottom: 5px;
+}
+
+.tts-download {
+	right: 100px;
+}
+
+.tts-play {
+	right: 70px;
+}
+
+.tts-demo {
+	right: 40px;
+}
+
+.tts-clear {
+	right: 10px;
+}
+
+.tts-setting {
+	margin-top: 40px;
+}
+
+.tts-setting-title, .tts-setting-value {
+	display: inline-block;
+	vertical-align: middle;
+	
+}
+
+.tts-setting-title {
+	font-weight: bold;
+	width: 50px;
+}
+
+.tts-setting-value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.tts-setting-value label {
+	padding-right: 5px;
+}
+
+.tts-setting-value input[type=radio] {
+	margin-right: 3px;
+	display: initial;
+	visibility: initial;
+	width: initial;
+	height: initial;
+}
+
+.tts-setting-value input[type=range] {
+    height: 10px;
+	width: 250px;
+}
+
+.tts-setting-value input[type=range]:focus {
+	outline: none;
+}
+
+.tts-setting-value i {
+	font-size: 12px;
+	color: #5A9600;
 }
